@@ -18,13 +18,11 @@ export function MidiaSocial() {
                             <h2 id="item2">Criação de Logo e <br />
                                 Identidade Visual</h2><br />
                             <p id="linha"></p><br />
+                            <p id="texte">Desenvolvimento de Marcas / Logo / Logotipos e <br />
+                                Identidade visual, como desenvolvimento preparado <br />
+                                para patente. <br /> </p>
                         </div>
-                        <p id="texte">Desenvolvimento de Marcas / Logo / Logotipos e <br />
-                            Identidade visual, como desenvolvimento preparado <br />
-                            para patente. <br /> </p>
-                        <div className="ContainerButton">
-                            <button>Saiba Mais</button>
-                        </div>
+                        <button className="active">Saiba Mais</button>
                     </div>
 
                     <div className="container">
@@ -33,10 +31,11 @@ export function MidiaSocial() {
                             <h2 id="elementoTitle">Marketing Digital <br />
                                 e Google Adwords</h2><br />
                             <p id="elementoLinha"></p><br />
+                            <p id="textMidia2">Gerenciamento de Redes Sociais / Marketing Digital <br />
+                                / Google Ads. Planejamento prévio com foco em <br />
+                                resultados e vendas.</p>
                         </div>
-                        <p id="textMidia2">Gerenciamento de Redes Sociais / Marketing Digital <br />
-                            / Google Ads. Planejamento prévio com foco em <br />
-                            resultados e vendas.</p>
+                        <button className="active">Saiba Mais</button>
                     </div>
                     <div className="container">
                         <div className="styleImg3">
@@ -44,10 +43,11 @@ export function MidiaSocial() {
                             <h2 id="cartTitle">Sites e E-commerce <br />
                                 / Loja Virtual / Seo</h2><br />
                             <p id="cartLinha"></p><br />
+                            <p id="cartText">Criação de Sites e E-commerce organizados <br />
+                                para SEO. O próprio usuário consegue alimentar e dar <br />
+                                sequência no trabalho.</p>
                         </div>
-                        <p id="cartText">Criação de Sites e E-commerce organizados <br />
-                            para SEO. O próprio usuário consegue alimentar e dar <br />
-                            sequência no trabalho.</p>
+                        <button className="active">Saiba Mais</button>
                     </div>
                 </div>
 
@@ -60,9 +60,12 @@ export function MidiaSocial() {
                             <h2 id="mensageTitle">Planejamento <br />
                                 Publicitário e Venda</h2> <br />
                             <p id="mensageLinha"></p>
+
+                            <p id="mesageText"> Desenvolvimento de Marcas / Logo / Logotipos e <br />
+                                Identidade visual, como desenvolvimento preparado <br /> para patente.</p>
                         </div>
-                        <p id="mesageText"> Desenvolvimento de Marcas / Logo / Logotipos e <br />
-                            Identidade visual, como desenvolvimento preparado <br /> para patente.</p>
+
+                        <button className="active">Saiba Mais</button>
                     </div>
                     <div className="container">
                         <div className="styleImg5">
@@ -71,9 +74,11 @@ export function MidiaSocial() {
                                 e Animação</h2> <br />
                             <p id="videoLinha"></p>
 
+                            <p id="videoText">Gerenciamento de Redes Sociais / Marketing Digital <br />
+                                / Google Ads. Planejamento prévio com foco em <br /> resultados e vendas.</p>
                         </div>
-                        <p id="videoText">Gerenciamento de Redes Sociais / Marketing Digital <br />
-                            / Google Ads. Planejamento prévio com foco em <br /> resultados e vendas.</p>
+
+                        <button className="active">Saiba Mais</button>
                     </div>
                     <div className="container">
                         <div className="styleImg6">
@@ -81,9 +86,12 @@ export function MidiaSocial() {
                             <h2 id="alvoTitle">Criação de <br />
                                 Campanhas</h2> <br />
                             <p id="alvoLinha"></p>
+
+                            <p id="alvoText">Criação de Sites e E-commerce organizados para <br />
+                                SEO. O próprio usuário consegue alimentar e dar <br /> sequência no trabalho.</p>
                         </div>
-                        <p id="alvoText">Criação de Sites e E-commerce organizados para <br />
-                            SEO. O próprio usuário consegue alimentar e dar <br /> sequência no trabalho.</p>
+
+                        <button className="active">Saiba Mais</button>
                     </div>
 
                 </div>
