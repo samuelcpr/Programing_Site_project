@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
 .topBar {
+    height: 9rem;
     display: flex;
     align-items: center;
     width: auto;
@@ -14,9 +15,10 @@ export const Container = styled.header`
 }
 
 .logoImg img {
-    height: 6rem;
+    height: 7rem;
     border: 1px solid;
     border-radius: 5px;
+    border: solid 1px #ffffff;
 }
 .divisor {
     display: flex;
@@ -26,7 +28,7 @@ export const Container = styled.header`
 nav a {
     height: auto;
     width: auto;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 15px;
     /* é utilizado para retirar stilo da teg a*/
     text-decoration: none;
     color: #fff;

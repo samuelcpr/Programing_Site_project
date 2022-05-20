@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Galeria = styled.div`
 .GaleriaImagens {
-    margin: 5rem 0;
+    margin: 10rem 0 5rem 0;
     
-background-color: #FFFFFF;
+
 }
 
 .linha1 {

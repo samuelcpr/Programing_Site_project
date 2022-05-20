@@ -11,14 +11,17 @@ export function TemplatInformativo() {
                 <div className="text">
                     <h1> Opis Agência de <br /> Publicidadeem <br /> Goiânia</h1>
                     <p>Conheça o nosso Grupo Publicitário</p>
+
                     <div className="parceiros">
                         <img src={ParceirosIcon} alt="" />
+
+                        <div className="button04">
+                            <a href="#">Saber Mais</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="button04">
-                <a href="#">Saber Mais</a>
-            </div>
+
         </Bannerinformativo>
     )
 }

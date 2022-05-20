@@ -8,11 +8,19 @@ export const Bannerinformativo = styled.div`
     justify-content: baseline;
     align-items: center;
     padding-top: 10px 0;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-areas: "imgopção text" ;
+  grid-template-rows: 42rem 0 ;
+  grid-template-columns: 50% 50%;
+
 }
 
 .imgopção {
     width: auto;
-    margin: 3rem 2rem 0 10rem;
+    display: flex;
+    justify-content: right;
+
 
 }
 
@@ -20,7 +28,8 @@ export const Bannerinformativo = styled.div`
     width: auto;
     filter: grayscale(1);
     transition: .9s;
-    margin: 0 0rem 2rem 10rem;
+    margin: 0rem 0 0 14rem;
+    height: 37rem;
    
 }
 
@@ -29,21 +38,22 @@ export const Bannerinformativo = styled.div`
 }
 
 .text {
+    width: auto;
     display: block;
     align-items: center;
-    margin: 2rem 0;
+    margin: 10rem  0 0 2rem;
 }
 
 .text h1 {
-    margin-top: 16rem;
+    margin-top: 5rem;
     margin-bottom: 50px;
-    font-size: 40px;
     color: #0a9d91;
-    font-size: 40px;
-    line-height: 45px;
-    font-weight: 700!important;
+    font-size: 48px;
+    line-height: 55px;
+    font-weight: 700 !important;
     filter: grayscale(1);
     transition: .9s;
+    font-family: Lato,sans-serif;
 }
 
 .text h1:hover {
@@ -60,37 +70,51 @@ export const Bannerinformativo = styled.div`
 }
 
 .parceiros {
-    width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    margin: 3rem 0 0 0;
+    
+    width: auto;
+    display: block;
+    margin: 4rem 0 0 0;
 }
 
 .parceiros img {
-    width: 550px;
+    width: 60%;
+
+   
+    
 }
 .button04 {
     display: flex;
-    justify-content:right;
+    justify-content: center;
+    margin-top: 2rem;
+    
+   
 
-}
-
-.button04 a{
+a{
 border: 1px solid;
 border-radius: 5px;
 text-decoration: none;
-margin-right: 19%;
-padding: 9px 25px;
-font-size: 18px;
+padding: 12px 30px;
+font-size: 17px;
+line-height: 0 2rem;
 font-family: Arial, Helvetica, sans-serif;
 filter: grayscale(1);
 transition: .9s;
 color: #666868;
-}
 
-.button04 a:hover{
+
+
+&:hover {
     filter: none;
     background-color: #3F7C72;
     color: #fff;
+   }
+  }
 }
+
+
+
+ 
+
+
+    
 `

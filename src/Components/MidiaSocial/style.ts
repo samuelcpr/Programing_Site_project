@@ -9,11 +9,12 @@ export const Midiasocial = styled.div`
     margin: 15rem 0;
   
     
+   
     
 }
 
 .linhaElement01 img {
-    height: 10rem;
+    height: 9rem;
     margin-bottom: 20rem;
     
 
@@ -22,7 +23,6 @@ export const Midiasocial = styled.div`
     }
    
     .linhaElement01 .container {
-      margin: 0 2rem 3rem 2rem;
       padding: 0 2rem;
     }
    
@@ -41,13 +41,12 @@ export const Midiasocial = styled.div`
 }
 
 .linhaElement02 .container {
-  margin: 0 2rem 3rem 2rem;
       padding: 0 2rem;
     }
 
 
 .linhaElement02 img {
-  height: 10rem;
+  height: 9rem;
     
     
 }
@@ -61,7 +60,7 @@ export const Midiasocial = styled.div`
 
   grid-template-areas: "item1 item2" "linha linha" "texte texte" ;
   grid-template-rows: 7rem 5rem ;
-  grid-template-columns: 10rem 26rem;
+  grid-template-columns: 10rem 20rem;
 }
    
     
@@ -111,7 +110,7 @@ font-weight: 500;
  
    grid-template-areas: "elementoImg elementoTitle" "elementoLinha elementoLinha" "textMidia2 textMidia2";
    grid-template-rows: 7rem 5rem ;
-   grid-template-columns: 10rem 26rem;
+   grid-template-columns: 10rem 20rem;
  }
     
      
@@ -165,7 +164,7 @@ font-weight: 500;
  
    grid-template-areas: "cartImg cartTitle" "cartLinha cartLinha" "cartText cartText";
    grid-template-rows: 7rem 5rem ;
-   grid-template-columns: 10rem 26rem;
+   grid-template-columns: 10rem 20rem;
    
 
  }
@@ -219,7 +218,7 @@ font-weight: 500;
  
    grid-template-areas: "messageImg mensageTitle" "mensageLinha mensageLinha" "mesageText mesageText";
    grid-template-rows: 7rem 5rem ;
-   grid-template-columns: 10rem 26rem;
+   grid-template-columns: 10rem 20rem;
    
 
  }
@@ -268,7 +267,7 @@ font-weight: 500;
  
    grid-template-areas: "videoImg videoTitle" "videoLinha videoLinha" "videoText videoText";
    grid-template-rows: 7rem 5rem ;
-   grid-template-columns: 10rem 26rem;
+   grid-template-columns: 10rem 20rem;
    
 
  }
@@ -303,7 +302,7 @@ font-weight: 500;
    display: grid;
    grid-template-areas: "alvoImg alvoTitle" "alvoLinha alvoLinha" "alvoText alvoText";
    grid-template-rows: 7rem 5rem ;
-   grid-template-columns: 10rem 26rem;
+   grid-template-columns: 10rem 20rem;
   
  }
  

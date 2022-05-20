@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Slid = styled.div`
 .slider {
-    height: 42rem;
+    height: 40rem;
     width: 100%;
     display: flex;
     justify-content: right;
@@ -13,10 +13,10 @@ export const Slid = styled.div`
 }
 
 .slider img {
-    height: 16rem;
+    height: 15rem;
     width: auto;
     padding: 0;
-    margin: 12rem 20rem 0 0rem;
+    margin: 15rem 20rem 0 0rem;
     
 }
 
@@ -30,9 +30,9 @@ export const Slid = styled.div`
 /* Iciciando interação social*/
 #swing {
     z-index: 1;
-    height: 5.5rem;
+    height: 5rem;
     position: fixed;
-    margin: 40rem 0 0 -1rem;
+    margin: 32% 0 0 -1rem;
 }
 @-webkit-keyframes swing
 {
