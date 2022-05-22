@@ -10,10 +10,22 @@ export const Bannerinformativo = styled.div`
     padding-top: 10px 0;
     margin-bottom: 5rem;
     display: grid;
-    grid-template-areas: "imgopção text" ;
+    grid-template-areas: "imgopção text button04" ;
   grid-template-rows: 42rem 0 ;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50% 50%;
 
+}
+.imgopção {
+    grid-area: imgopção;
+    
+}
+
+.text {
+    grid-area: text;
+  
+}
+.button04 {
+grid-area: button04;
 }
 
 .imgopção {

@@ -6,20 +6,21 @@ export function Header() {
         <Container>
             <div className="topBar">
                 <div className="logoImg">
-                    <img src={logoImg} alt="" />
+                    <img src={logoImg} alt="" id='logo' />
                 </div>
-                <div className="divisor">
-                    <nav>
-                        <a href="">HOME</a>
-                        <a href="">EMPRESA</a>
-                        <a href="">PORTFÓLIO</a>
-                        <a href="">SERVIÇOS</a>
-                        <a href="">CURSOS</a>
-                    </nav>
-                    <div className="button">
-                        <a href="#">Orçamento</a>
-                    </div>
+
+                <nav className='textmenu'>
+                    <a href="" id='itens'>HOME</a>
+                    <a href="" id='itens'>EMPRESA</a>
+                    <a href="" id='itens'>PORTFÓLIO</a>
+                    <a href="" id='itens'>SERVIÇOS</a>
+                    <a href="" id='itens'>CURSOS</a>
+                </nav>
+
+                <div className="button">
+                    <a href="#">Orçamento</a>
                 </div>
+
             </div>
         </Container>
     )

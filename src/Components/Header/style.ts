@@ -2,37 +2,39 @@ import styled from "styled-components";
 
 export const Container = styled.header`
 .topBar {
-    height: 9rem;
-    display: flex;
-    align-items: center;
-    width: auto;
     background-color: #0F0F0F;
-    width: 100%;
-}
-.logoImg {
-    width: auto;
-    padding: 5px 20px;
+    display: grid;
+    grid-template-areas: "logoImg textmenu  button";
+    grid-template-columns: 6% 82% 7%;
+    grid-template-rows: rem;
 }
 
-.logoImg img {
-    height: 7rem;
-    border: 1px solid;
-    border-radius: 5px;
-    border: solid 1px #ffffff;
+.logoImg {
+    grid-area: logoImg;
+    
+
 }
-.divisor {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.textmenu {
+display: flex;
+grid-area: textmenu;
+margin: 2rem;
+
+#itens {
+margin: 0 1rem ;
+text-decoration: none;
+color: #ffffff;
 }
-nav a {
-    height: auto;
-    width: auto;
-    padding: 20px 20px 20px 15px;
-    /* é utilizado para retirar stilo da teg a*/
-    text-decoration: none;
-    color: #fff;
 }
+
+
+.button {
+display: block;
+grid-area: button;
+margin: 2rem 0 0 2rem;
+
+
+}
+
 .button a {
     padding: 10px 20px;
     background-color: black;

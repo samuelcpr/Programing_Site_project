@@ -2,19 +2,23 @@ import styled from "styled-components";
 
 export const Textmidia = styled.div`
 .textMidia {
-display: flex;
-justify-content: space-around;
-margin-bottom: 10rem;
+display: grid;
+grid-template-areas:"midiaText midiaIMG" ;
+grid-template-columns: 50% 50%;
+justify-content: center;
 
 
 }
 
 .midiaIMG {
-    margin: 0 5rem 0 0;
+    grid-area: midiaIMG;
+    
    
     
 }
 .midiaIMG img {
+    height: 35rem;
+    margin-left: 3rem;
     filter: grayscale(1);
     transition: .9s;
 }
@@ -23,7 +27,8 @@ margin-bottom: 10rem;
 }
 
 .midiaText {
-    margin: 5rem 0 0 5rem;
+    grid-area: midiaText;
+    margin: 5rem 0 0 20rem;
     
    
 }
