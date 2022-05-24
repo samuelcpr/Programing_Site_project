@@ -5,19 +5,26 @@ export const Container = styled.header`
     background-color: #0F0F0F;
     display: grid;
     grid-template-areas: "logoImg textmenu  button";
-    grid-template-columns: 6% 82% 7%;
-    grid-template-rows: rem;
+    grid-template-columns: 5rem 82% 7%;
 }
 
 .logoImg {
     grid-area: logoImg;
+    padding-top: 9px;
+    padding-bottom: 3px;
     
+    a {
+       
+      margin :1rem ;
+      
+    }
 
 }
 .textmenu {
 display: flex;
 grid-area: textmenu;
-margin: 2rem;
+margin: 2rem 2rem 2rem 2rem;
+align-items: center;
 
 #itens {
 margin: 0 1rem ;
@@ -30,7 +37,8 @@ color: #ffffff;
 .button {
 display: block;
 grid-area: button;
-margin: 2rem 0 0 2rem;
+margin: 2.4rem 0 0 2rem;
+align-items: center;
 
 
 }

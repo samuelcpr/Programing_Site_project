@@ -6,7 +6,7 @@ export function Header() {
         <Container>
             <div className="topBar">
                 <div className="logoImg">
-                    <img src={logoImg} alt="" id='logo' />
+                    <a href="#"><img src={logoImg} alt="" id='logo' /></a>
                 </div>
 
                 <nav className='textmenu'>

@@ -8,6 +8,9 @@ import { GaleriaImg } from './Components/GaleriaImg';
 import { TextMidia } from './Components/TextMida';
 import { MidiaSocial } from './Components/MidiaSocial';
 
+
+
+
 export function App() {
   return (
     <>
@@ -17,6 +20,7 @@ export function App() {
       <GaleriaImg />
       <TextMidia />
       <MidiaSocial />
+
       <GlobalStyle />
     </>
   );
