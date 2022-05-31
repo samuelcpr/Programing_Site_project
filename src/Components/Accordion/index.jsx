@@ -12,7 +12,7 @@ const AccordionSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  right: 30%;
+  right: 20%;
   position: relative;
   height: 5vh;
   background: #F0F8FF;
@@ -20,6 +20,7 @@ const AccordionSection = styled.div`
 
 `
 const Container = styled.div`
+width: 40%;
   position: absolute;
   top: 30%;
   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
@@ -35,7 +36,7 @@ align-items: center;
 cursor: pointer;
 
 h1 {
-  padding: 2rem;
+  padding: 2rem 10rem 2rem 0;
   font-size: 2rem;
 }
 

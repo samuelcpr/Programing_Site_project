@@ -8,6 +8,7 @@ import { GaleriaImg } from './Components/GaleriaImg';
 import { TextMidia } from './Components/TextMida';
 import { MidiaSocial } from './Components/MidiaSocial';
 import Accordion from './Components/Accordion';
+import { ImgFooter } from './Components/ImgFooter';
 
 
 
@@ -25,6 +26,7 @@ export function App() {
       <TextMidia />
       <MidiaSocial />
       <Accordion />
+      <ImgFooter />
       <GlobalStyle />
     </>
   );
