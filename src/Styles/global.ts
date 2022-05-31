@@ -4,13 +4,25 @@ import { createGlobalStyle } from 'styled-components'
 // Boas Práticas 
 export const GlobalStyle = createGlobalStyle`
 :root {
-    --background: #ffffff;
+
+--red: #e52e4d;
+--green: #33cc95;
+--blue: #5429cc;
+
+
+--blue-light: #6933ff;
+
+--text-title: #363f5f;
+--text-body: #969cb3;
+
+--background: #F0F8FF;
+--shape: #F0E68C;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 html {

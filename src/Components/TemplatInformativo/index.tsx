@@ -1,6 +1,8 @@
 import ImgAnuncio from '../../assets/img/paulo-mauricio-diretor-publicitario.jpg'
 import ParceirosIcon from '../../assets/img/icon parceiros/logo-nova-opis.svg'
 import { Bannerinformativo } from './style'
+
+
 export function TemplatInformativo() {
     return (
         <Bannerinformativo>

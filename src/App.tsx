@@ -7,6 +7,10 @@ import { TemplatInformativo } from './Components/TemplatInformativo';
 import { GaleriaImg } from './Components/GaleriaImg';
 import { TextMidia } from './Components/TextMida';
 import { MidiaSocial } from './Components/MidiaSocial';
+import Accordion from './Components/Accordion';
+
+
+
 
 
 
@@ -20,7 +24,7 @@ export function App() {
       <GaleriaImg />
       <TextMidia />
       <MidiaSocial />
-
+      <Accordion />
       <GlobalStyle />
     </>
   );

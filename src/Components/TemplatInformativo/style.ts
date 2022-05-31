@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Bannerinformativo = styled.div`
 .group {
     width: auto;
-    background-color: #fff;
+    background-color: #F0F8FF;
     display: flex;
     justify-content: baseline;
     align-items: center;
