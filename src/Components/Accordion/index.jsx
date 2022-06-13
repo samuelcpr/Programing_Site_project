@@ -15,8 +15,9 @@ const AccordionSection = styled.div`
   right: 20%;
   position: relative;
   height: 5vh;
-  background: #F0F8FF;
+  background: #ffffff;
   margin-bottom: 20rem;
+
 
 `
 const Container = styled.div`
@@ -26,7 +27,7 @@ width: 40%;
   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 `
 const Wrap = styled.div`
-background: #F0F8FF;
+background: #ffffff;
 color: #000000;
 display: flex;
 justify-content: space-between;
@@ -36,9 +37,38 @@ align-items: center;
 cursor: pointer;
 
 h1 {
-  padding: 2rem 10rem 2rem 0;
+
+  display: flex;
+  position: relative;
+  right: 6.4rem;
   font-size: 2rem;
+  align-items: center;
+  padding: 1rem;
 }
+.item2 {
+  display: flex;
+  position: relative;
+  right: 6.5rem;
+  font-size: 2rem;
+  align-items: center;
+}
+.item3 {
+  display: flex;
+  position: relative;
+  right: 19.7rem;
+  font-size: 2rem;
+  align-items: center;
+}
+.item4 {
+  display: flex;
+  position: relative;
+  right: 28.7rem;
+  font-size: 2rem;
+  align-items: center;
+}
+
+
+
 
 span {
   margin-left: 1.5rem;
@@ -47,7 +77,7 @@ span {
 `
 const Dropdown = styled.div`
 
-  background: #F0F8FF;
+  background: #ffffff;
   color: #000000
   width:100%;
   height: 100px;
@@ -59,7 +89,27 @@ const Dropdown = styled.div`
   border-top: 1px solid #fff;
 
 p {
-  font-size: 1rem;
+  font-size: 20px;
+}
+.list1 {
+  display: flex;
+  position: relative;
+  right: 12.7rem;
+}
+.list2 {
+  display: flex;
+  position: relative;
+  right: 15.7rem;
+}
+.list3 {
+  display: flex;
+  position: relative;
+  right: 10.2rem;
+}
+.list4 {
+  display: flex;
+  position: relative;
+  right: 14rem;
 }
 `
 
@@ -89,12 +139,20 @@ const Accordion = () => {
               <Wrap onClick={() => toggle(index)} key={index}>
               <span>{clicked === index ? <FiMinus/> : <FiPlus/>}</span>
                 <h1>{item.question}</h1>
+                <h1 className='item2'>{item.question2}</h1>
+                <h1 className='item3'>{item.question3}</h1>
+                <h1 className='item4'>{item.question4}</h1>
               </Wrap>
               {clicked === index ? (
               <Dropdown>
               <p>{item.answer}</p>
+              <p className='list1'>{item.answer1}</p>
+              <p className='list2'>{item.answer2}</p>
+              <p className='list3'>{item.answer3}</p>
+              <p className='list4'>{item.answer4}</p>
               </Dropdown>
                ): null}
+               
 
 
             </>

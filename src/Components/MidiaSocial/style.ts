@@ -7,6 +7,7 @@ export const Midiasocial = styled.div`
     justify-content: center;
     align-items: center;
     margin: 15rem 0;
+    
   
     
    

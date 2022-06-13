@@ -11,6 +11,9 @@ export const Slid = styled.div`
    
     background-color: #010001;
 }
+#habilite-gzip {
+    margin-top: 36rem;
+}
 
 .slider img {
     height: 15rem;

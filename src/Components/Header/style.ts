@@ -2,10 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.header`
 .topBar {
+    width: 100%;
     background-color: #0F0F0F;
     display: grid;
     grid-template-areas: "logoImg textmenu  button";
     grid-template-columns: 5rem 82% 7%;
+    counter-increment: item;
+    
+    
+    z-index: calc(10 - attr(i integer)); /* nope */
+    z-index: calc(10 - counter(item)); /* nope */
 }
 
 .logoImg {
@@ -21,6 +27,7 @@ export const Container = styled.header`
 
 }
 .textmenu {
+
 display: flex;
 grid-area: textmenu;
 margin: 2rem 2rem 2rem 2rem;

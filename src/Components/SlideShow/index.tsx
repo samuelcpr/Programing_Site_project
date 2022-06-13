@@ -15,6 +15,7 @@ export function SlideShow() {
                     <img id="swing" src={ImgSocial} alt="" />
 
                 </div>
+                <a href="#" id="habilite-gzip"></a>
             </div>
         </Slid >
     )

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Bannerinformativo = styled.div`
+
 .group {
     width: auto;
-    background-color: #F0F8FF;
+    background-color: #ffffff;
     display: flex;
     justify-content: baseline;
     align-items: center;

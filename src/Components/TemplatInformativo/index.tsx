@@ -8,13 +8,14 @@ export function TemplatInformativo() {
         <Bannerinformativo>
             <div className='group'>
                 <div className="imgopção">
+
                     <img src={ImgAnuncio} alt="" />
                 </div>
                 <div className="text">
                     <h1> Opis Agência de <br /> Publicidadeem <br /> Goiânia</h1>
                     <p>Conheça o nosso Grupo Publicitário</p>
 
-                    <div className="parceiros">
+                    <div className="parceiros" id='#WE'>
                         <img src={ParceirosIcon} alt="" />
 
                         <div className="button04">

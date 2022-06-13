@@ -11,7 +11,7 @@ export function Header() {
 
                 <nav className='textmenu'>
                     <a href="" id='itens'>HOME</a>
-                    <a href="" id='itens'>EMPRESA</a>
+                    <a href="#habilite-gzip" id='itens'>EMPRESA</a>
                     <a href="" id='itens'>PORTFÓLIO</a>
                     <a href="" id='itens'>SERVIÇOS</a>
                     <a href="" id='itens'>CURSOS</a>

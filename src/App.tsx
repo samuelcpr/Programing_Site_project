@@ -9,6 +9,8 @@ import { TextMidia } from './Components/TextMida';
 import { MidiaSocial } from './Components/MidiaSocial';
 import Accordion from './Components/Accordion';
 import { ImgFooter } from './Components/ImgFooter';
+import { Footer } from './Components/Footer';
+
 
 
 
@@ -27,6 +29,7 @@ export function App() {
       <MidiaSocial />
       <Accordion />
       <ImgFooter />
+      <Footer />
       <GlobalStyle />
     </>
   );
