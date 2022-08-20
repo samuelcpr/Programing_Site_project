@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.header`
 .topBar {
     width: 100%;
-    background-color: #0F0F0F;
+    background-color: #363636;
     display: grid;
     grid-template-areas: "logoImg textmenu  button";
     grid-template-columns: 5rem 82% 7%;
@@ -16,21 +16,27 @@ export const Container = styled.header`
 
 .logoImg {
     grid-area: logoImg;
-    padding-top: 9px;
-    padding-bottom: 3px;
+    padding: 9px;
+    height: 5rem;
     
     a {
        
       margin :1rem ;
+
+      img {
+        height: 130%;
+      }
       
     }
+
+
 
 }
 .textmenu {
 
 display: flex;
 grid-area: textmenu;
-margin: 2rem 2rem 2rem 2rem;
+margin: 2rem 2rem 3rem 2rem;
 align-items: center;
 
 #itens {

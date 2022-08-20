@@ -1,4 +1,4 @@
-import Video from '../../assets/img/solicitar-atendimento.gif'
+import Video from '../../assets/img/logoanimado.gif'
 import ImgSocial from '../../assets/img/whatsapp.svg'
 import { Slid } from './style'
 

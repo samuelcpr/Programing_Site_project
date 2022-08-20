@@ -40,7 +40,7 @@ h1 {
 
   display: flex;
   position: relative;
-  right: 6.4rem;
+  right: 4.4rem;
   font-size: 2rem;
   align-items: center;
   padding: 1rem;
@@ -48,21 +48,21 @@ h1 {
 .item2 {
   display: flex;
   position: relative;
-  right: 6.5rem;
+  right: 2.5rem;
   font-size: 2rem;
   align-items: center;
 }
 .item3 {
   display: flex;
   position: relative;
-  right: 19.7rem;
+  right: 14rem;
   font-size: 2rem;
   align-items: center;
 }
 .item4 {
   display: flex;
   position: relative;
-  right: 28.7rem;
+  right: 21.3rem;
   font-size: 2rem;
   align-items: center;
 }
@@ -76,9 +76,8 @@ span {
 
 `
 const Dropdown = styled.div`
-
   background: #ffffff;
-  color: #000000
+  color: #000000;
   width:100%;
   height: 100px;
   display: flex;

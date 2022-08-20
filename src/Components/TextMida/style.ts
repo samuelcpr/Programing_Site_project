@@ -17,7 +17,8 @@ justify-content: center;
     
 }
 .midiaIMG img {
-    height: 35rem;
+    padding-top: 10rem;
+    width: 70%;
     margin-left: 3rem;
     filter: grayscale(1);
     transition: .9s;
