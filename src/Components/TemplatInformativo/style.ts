@@ -38,11 +38,12 @@ grid-area: button04;
 }
 
 .imgopção img {
-    width: auto;
+   
     filter: grayscale(1);
     transition: .9s;
-    margin: 0rem 0 0 14rem;
-    height: 37rem;
+    margin: 0rem 0 0 14%;
+    height: 5%;
+    width: 80%;
    
 }
 

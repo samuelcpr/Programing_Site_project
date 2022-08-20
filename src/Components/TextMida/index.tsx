@@ -1,12 +1,12 @@
-import BanerMidia from '../../assets/img/aline-gabriela-diretora-de-marketing.jpg'
+import BanerMidia from '../../assets/img/MinhaHinstória.gif'
 import { Textmidia } from './style'
 export function TextMidia() {
     return (
         <Textmidia>
             <div className="textMidia">
                 <div className="midiaText">
-                    <h2>Nossos <br />
-                        Serviços
+                    <h2>Meu <br />
+                        Portifólio
                     </h2>
                     <h3>Planejamentos / Estratégia de Curto <br />
                         Médio e Longo Prazo.</h3>

@@ -1,4 +1,4 @@
-import ImgAnuncio from '../../assets/img/paulo-mauricio-diretor-publicitario.jpg'
+import ImgAnuncio from '../../assets/img/icon parceiros/samuelcarlos.png'
 import ParceirosIcon from '../../assets/img/icon parceiros/logo-nova-opis.svg'
 import { Bannerinformativo } from './style'
 
@@ -12,8 +12,8 @@ export function TemplatInformativo() {
                     <img src={ImgAnuncio} alt="" />
                 </div>
                 <div className="text">
-                    <h1> Opis Agência de <br /> Publicidadeem <br /> Goiânia</h1>
-                    <p>Conheça o nosso Grupo Publicitário</p>
+                    <h1> Descrições <br /> De Habilidades <br /> E competencias</h1>
+                    <p>Conheça o Meu Perfil do Github</p>
 
                     <div className="parceiros" id='#WE'>
                         <img src={ParceirosIcon} alt="" />

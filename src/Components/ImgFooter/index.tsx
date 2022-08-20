@@ -6,7 +6,7 @@ const Imgstyle = styled.div`
     width: auto;
     display: flex;
     position: relative;
-    margin-left: 80rem;
+    margin-left: 70rem;
     margin-top: -22rem;
    
    

@@ -1,4 +1,4 @@
-import logoImg from '../../assets/logo-nova-opis.svg'
+import logoImg from '../../assets/img/img midias/SOUDEV.gif'
 import { Container } from './style'
 
 export function Header() {
@@ -11,10 +11,8 @@ export function Header() {
 
                 <nav className='textmenu'>
                     <a href="" id='itens'>HOME</a>
-                    <a href="#habilite-gzip" id='itens'>EMPRESA</a>
+                    <a href="#habilite-gzip" id='itens'>MINHAS HABILIDADES</a>
                     <a href="" id='itens'>PORTFÓLIO</a>
-                    <a href="" id='itens'>SERVIÇOS</a>
-                    <a href="" id='itens'>CURSOS</a>
                 </nav>
 
                 <div className="button">

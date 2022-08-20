@@ -5,21 +5,21 @@ export const Slid = styled.div`
     height: 40rem;
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     position: static;
     
    
-    background-color: #010001;
+    background-color: #000101;
 }
 #habilite-gzip {
     margin-top: 36rem;
 }
 
 .slider img {
-    height: 15rem;
+    height: 25rem;
     width: auto;
     padding: 0;
-    margin: 15rem 20rem 0 0rem;
+    margin: 5rem 0 0 38%;
     
 }
 
@@ -28,14 +28,14 @@ export const Slid = styled.div`
     display: flex;
     justify-content: right;
     margin-top: 0;
-    padding: 0rem 2rem 0 1rem;
+    
 }
 /* Iciciando interação social*/
 #swing {
     z-index: 1;
     height: 5rem;
     position: fixed;
-    margin: 32% 0 0 -1rem;
+    margin: 32% 0 0 20%;
 }
 @-webkit-keyframes swing
 {
